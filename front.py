@@ -11,7 +11,7 @@ def main():
     st.title("PDF Chatbot for Small Pdf")
     st.markdown('<style>h1{color: Green; text-align: center;}</style>', unsafe_allow_html=True)
 
-    uploaded_pdf = st.file_uploader('Upload your PDF',type = ['pdf'])
+    uploaded_pdf = st.file_uploader('Upload your PDF',type = ['pdf'],accept_multiple_files=False)
 
     if uploaded_pdf is not None:
         col1 , col2 = st.columns([2,2])
