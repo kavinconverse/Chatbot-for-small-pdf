@@ -1,0 +1,10 @@
+streamlit
+langchain
+PyPDF2
+pypdf
+sentence_transformers
+huggingface-hub
+pinecone-client
+replicate
+python-dotenv
+faiss-cpu
